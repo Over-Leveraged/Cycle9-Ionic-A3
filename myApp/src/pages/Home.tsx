@@ -21,9 +21,9 @@ const Home: React.FC = () => {
       </IonHeader>
       <IonContent className="ion-padding">
 
-      <IonButton expand="full"><Link to="/home" className='nav-btn'>Home</Link></IonButton>
+      <Link to="/home" className='nav-btn'><IonButton expand="full">Home</IonButton></Link>
       <Link to="/about" className='nav-btn'><IonButton expand="full">About</IonButton></Link>
-      <IonButton expand="full">Products</IonButton>
+      <Link to="/Products" className='nav-btn'><IonButton expand="full">Products</IonButton></Link>
       </IonContent>
 
     </IonMenu>
@@ -35,12 +35,12 @@ const Home: React.FC = () => {
           <IonMenuButton ></IonMenuButton>
         </IonButtons>
         <IonButtons slot="secondary">
-          <IonButton>About</IonButton>
+        <Link to="/about" className='nav-btn'><IonButton>About</IonButton></Link>
         </IonButtons>
         <IonButtons slot="primary">
-          <IonButton>Products</IonButton>
+        <Link to="/Products" className='nav-btn'><IonButton>Products</IonButton></Link>
         </IonButtons>
-        <IonTitle>Akiel Walsh</IonTitle>
+        <Link to="/Home" className='nav-btn'><IonTitle>The Watch Shop</IonTitle></Link>
         </IonToolbar>
       </IonHeader>
       

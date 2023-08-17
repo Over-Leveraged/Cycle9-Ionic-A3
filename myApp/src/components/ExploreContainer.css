@@ -29,3 +29,22 @@
   margin: 0 auto;
   display: block;
 }
+
+.display-img{
+  width: 100px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.Button-Container {
+  display: flex;
+  justify-content: center;
+  max-width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.nav-btn {
+  flex: 1;
+  margin: 0 5px; 
+}
