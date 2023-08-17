@@ -40,8 +40,8 @@
 .Button-Container {
   display: flex;
   justify-content: center;
-  max-width: 300px; /* Adjust the width as needed */
-  margin: 0 auto; /* Center the container horizontally */
+  max-width: 320px; 
+  margin: 0 auto; 
 }
 
 .nav-btn {
