@@ -10,7 +10,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
       <strong>Meet Akiel Walsh</strong>
       
       {/* Add an Image of Akiel */}
-      <p>He is a me</p>
+      <p></p>
 
     </div>
   );
